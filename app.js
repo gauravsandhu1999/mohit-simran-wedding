@@ -46,7 +46,7 @@ const events = [
 ];
 
 // Background Music
-const musicFile = "assets/audio/wedding_audio.mp3";
+const musicFile = "audio/wedding_audio.mp3";
 
 
 // Insert names

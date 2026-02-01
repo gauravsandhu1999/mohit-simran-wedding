@@ -2,11 +2,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     const carouselImages = [
 
-        "./assets/gallery/img1.JPG",
-        "./assets/gallery/img2.JPG",
-        "./assets/gallery/img3.JPG",
-        "./assets/gallery/img4.JPG",
-        "./assets/gallery/img5.JPG"
+        "./gallery/img1.JPG",
+        "./gallery/img2.JPG",
+        "./gallery/img3.JPG",
+        "./gallery/img4.JPG",
+        "./gallery/img5.JPG"
     ];
 
     const carouselSlide = document.querySelector('.carousel-slide');
