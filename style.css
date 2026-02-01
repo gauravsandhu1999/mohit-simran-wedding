@@ -283,22 +283,26 @@ img {
     }
 
     .arch-sub-top.sanskrit-text {
-        font-size: 0.85rem;
-        word-spacing: 2px;
-        max-width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        line-height: 1.6;
+        font-size: clamp(0.7rem, 3.5vw, 0.85rem);
+        word-spacing: 1px;
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto 5px;
+        line-height: 1.5;
+        display: block;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
     }
 
     .arch-sub-top.english-text {
-        font-size: 0.8rem;
+        font-size: clamp(0.7rem, 3.5vw, 0.8rem);
         letter-spacing: 0.5px;
-        /* Reduce spacing for mobile */
-        max-width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
         line-height: 1.4;
+        display: block;
+        overflow-wrap: break-word;
     }
 
     /* Fix Couple Image Overflow */
