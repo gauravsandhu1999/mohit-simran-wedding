@@ -247,7 +247,8 @@ img {
     .hero-arch-frame {
         width: 95%;
         max-width: 340px;
-        padding: 40px 15px;
+        padding: 60px 15px 40px;
+        /* Increased top padding from 40px */
         border-radius: 200px 200px 150px 150px;
     }
 
@@ -283,11 +284,14 @@ img {
     }
 
     .arch-sub-top.sanskrit-text {
-        font-size: clamp(0.7rem, 3.5vw, 0.85rem);
+        font-size: clamp(0.65rem, 3vw, 0.8rem);
+        /* Slightly smaller */
         word-spacing: 1px;
         width: 100%;
-        max-width: 280px;
-        margin: 0 auto 5px;
+        max-width: 260px;
+        /* Narrower to stay away from edges */
+        margin: 10px auto 5px;
+        /* Added 10px top margin */
         line-height: 1.5;
         display: block;
         overflow-wrap: break-word;
@@ -1022,4 +1026,5 @@ footer p {
     #events h2,
     #couple-section h2 {
         font-size: 2.5rem;
-    }}
+    }
+}
